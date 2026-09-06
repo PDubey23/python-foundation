@@ -3,6 +3,7 @@
 A repository containing my Python fundamentals revision and practice code.
 
 Topics Covered:
+
 - Data Structures
 - Functions
 - Error Handling
