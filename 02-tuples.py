@@ -52,6 +52,20 @@ Point= namedtuple("Point", ["x", "y"])   #Type: namedtuple and fields x and y
 p= Point(x=1, y=2)
 print(p.x, p.y)
 
+import sys
+mylist = [0, 1, 2, "Hello", True ]
+mytuple = (0, 1, 2, "Hello", True)
+
+print(sys.getsizeof(mylist),"bytes")     # 104 bytes
+print(sys.getsizeof(mytuple),"bytes")    # 88 bytes
+
+
+import timeit
+print(timeit.timeit(stmt = "[1,2,3,4,5]", number = 1000000))
+print(timeit.timeit(stmt = "(1,2,3,4,5)", number = 1000000))
+
+'''Working with Tuples can be more efficient than working with Lists'''
+
 
 
 
