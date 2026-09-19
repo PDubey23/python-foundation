@@ -137,12 +137,14 @@ print(id(list_cpy))         #same id
 
 
 #List Comprehension
-
+#syntax:  [expression for item in iterable if condition]
 a=[1,2,3,4,5,6]
 b=[i*i for i in a]
 print(b)
 
-
+c = [10,12,18,19,20,32]
+res = [val for val in c if val%4==0]
+print(res)
 
 
 
