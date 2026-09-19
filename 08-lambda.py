@@ -66,3 +66,11 @@ a = [2, 4, 6, 8]
 r = reduce(lambda x, y: x+y, a)   #((2+4)+6)+8
 print(r)
 
+
+point2d = [(1,2), (15,1), (5,-1), (10,4)]
+point2d_sorted = sorted(point2d)
+print(point2d_sorted)
+
+point2d_sorted = sorted(point2d, key= lambda x: x[1])
+print(point2d_sorted)
+
