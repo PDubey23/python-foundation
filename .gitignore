@@ -18,3 +18,6 @@ env/
 # OS files
 .DS_Store
 Thumbs.db
+
+# practice files
+test.log
