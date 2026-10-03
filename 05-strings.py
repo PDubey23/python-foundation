@@ -147,3 +147,33 @@ print(mystring)
 the variables are Tom, 3 and 2.40
 the variables are Tom, 3 and 2.4'''
 
+var: int =100000000
+print(f"{var:_}")
+
+word: str = "Meet"
+print(f"{word:_>20}:")
+print(f"{word:@^20}:")
+
+
+
+
+from datetime import datetime
+
+now: datetime = datetime.now()
+print(f'{now:%d.%m.%y (%H.%M.%S)}')
+print(f'{now:%c}')
+print(f'{now:%I%p}')
+
+
+n: float = 1234.5678
+print(n)
+print(f'Result: {n:,.2f}')
+
+
+a: int = 5
+b: int = 10
+my_var: str = 'Bob says hi'
+
+print(f'{a + b = }')
+print(f'{my_var = }')
+
