@@ -22,4 +22,4 @@ Thumbs.db
 # practice files
 test.log
 app.log
-person.json
+.json/
